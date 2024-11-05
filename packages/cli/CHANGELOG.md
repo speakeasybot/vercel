@@ -1,5 +1,71 @@
 # vercel
 
+## 38.0.0
+
+### Major Changes
+
+- Migrate `vercel certs` subcommands to their own command specifications ([#12463](https://github.com/vercel/vercel/pull/12463))
+
+- Migrate `vercel dns` subcommands to their own command specifications ([#12464](https://github.com/vercel/vercel/pull/12464))
+
+- Migrate `vercel alias` subcommands to their own command specifications ([#12458](https://github.com/vercel/vercel/pull/12458))
+
+- Migrate `vercel env` subcommands to their own command specifications ([#12476](https://github.com/vercel/vercel/pull/12476))
+
+### Minor Changes
+
+- Migrate `vercel promote` subcommands to their own command specifications ([#12480](https://github.com/vercel/vercel/pull/12480))
+
+- [cli] add telemetry for `vercel teams switch` ([#12493](https://github.com/vercel/vercel/pull/12493))
+
+- [cli] add telemetry for --help flag ([#12430](https://github.com/vercel/vercel/pull/12430))
+
+- Add strongly typed `subcommands` for Telemetry methods based on command specification ([#12446](https://github.com/vercel/vercel/pull/12446))
+
+- Migrate `vercel telemetry` subcommands to their own command specifications ([#12460](https://github.com/vercel/vercel/pull/12460))
+
+- Migrate `vercel target` subcommands to their own command specifications ([#12477](https://github.com/vercel/vercel/pull/12477))
+
+- [cli] standardize `vercel teams` subcommand routing ([#12473](https://github.com/vercel/vercel/pull/12473))
+
+### Patch Changes
+
+- Don't print empty "Options" section in `--help` output (after filtering) ([#12479](https://github.com/vercel/vercel/pull/12479))
+
+- Show `vercel telemetry` subcommand help output ([#12487](https://github.com/vercel/vercel/pull/12487))
+
+- [cli] tidy up command config structure `vercel alias` ([#12438](https://github.com/vercel/vercel/pull/12438))
+
+- [cli] Use `getAliases` helper in `vercel certs` ([#12489](https://github.com/vercel/vercel/pull/12489))
+
+- [cli] use getAliases helper in vercel env ([#12491](https://github.com/vercel/vercel/pull/12491))
+
+- Don't print empty "Examples" section in `--help` output ([#12475](https://github.com/vercel/vercel/pull/12475))
+
+- [cli] derive `vercel alias` subcommand config from subcommand structs ([#12474](https://github.com/vercel/vercel/pull/12474))
+
+- Add telemetry to teams list options ([#12440](https://github.com/vercel/vercel/pull/12440))
+
+- Misc adjustments for `vercel bisect --help` ([#12478](https://github.com/vercel/vercel/pull/12478))
+
+- fix small issues in telemetry and whoami ([#12468](https://github.com/vercel/vercel/pull/12468))
+
+- Make `command` be an implied argument when `subcommands` array is defined ([#12456](https://github.com/vercel/vercel/pull/12456))
+
+- [cli] derive Map of aliases from Command structs ([#12472](https://github.com/vercel/vercel/pull/12472))
+
+- [cli] Add aliases field to Command ([#12462](https://github.com/vercel/vercel/pull/12462))
+
+- Include "integration" command name in synopsis line in `vercel integration <subcommand> --help` output ([#12470](https://github.com/vercel/vercel/pull/12470))
+
+- Consistent help output for `--next` option ([#12481](https://github.com/vercel/vercel/pull/12481))
+
+- Consistent help output for `--limit` option ([#12482](https://github.com/vercel/vercel/pull/12482))
+
+- [cli] use getAliases helper in vercel dns ([#12490](https://github.com/vercel/vercel/pull/12490))
+
+- [cli] move scope fetching closer to where its used in `vc bisect` ([#12439](https://github.com/vercel/vercel/pull/12439))
+
 ## 37.14.0
 
 ### Minor Changes
